@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 
 // ✏️ EDIT SURAT DI SINI
 const LETTER_CONTENT = {
-  greeting: "Hii sayangg,",
+  greeting: "Hii Franzine,",
   paragraphs: [
     "Im sorry for being blind to all the issues and imperfections I have. 🌸",
     "I want to change that right now and fix myself in every way possible so I can be a better person/partner for you in your world, I want to be a safe place for you and your emotions through anything youre going through even if im not there with you now.",
