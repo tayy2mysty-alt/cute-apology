@@ -2,8 +2,8 @@ import { useState, useRef, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 
 // 🔐 GANTI PASSCODE DI SINI (format: DD/MM/YYYY tanpa slash → "02032026")
-const CORRECT_CODE = '02032026'
-const DISPLAY_HINT = '02 / 03 / 2026'
+const CORRECT_CODE = '26112012'
+const DISPLAY_HINT = '26 / 11 / 2026'
 
 export default function PasscodeScreen({ onUnlock }) {
   const [input, setInput] = useState('')
