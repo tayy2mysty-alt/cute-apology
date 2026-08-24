@@ -4,12 +4,12 @@ import { motion } from 'framer-motion'
 const LETTER_CONTENT = {
   greeting: "Hii sayangg,",
   paragraphs: [
-    "Aku sadar kalau jatuh cinta bukan hanya tentang bersamamu, tapi juga tentang mengerti duniamu. 🌸",
-    "Maafin aku yang sempat buta dengan apa yang kamu rasain. Aku ingin belajar lagi menjadi rumah yang lebih peka dan lebih baik untuk segala keluh kesahmu.",
-    "Mungkin kata-kata yang aku rangkai memang ga seindah itu… tapi izinin aku buat coba belajar lagi jadi pribadi dan jadi pasangan yang lebih baik. 🥺",
+    "Im sorry for being blind to all the issues and imperfections I have. 🌸",
+    "I want to change that right now and fix myself in every way possible so I can be a better person/partner for you in your world, I want to be a safe place for you and your emotions through anything youre going through even if im not there with you now.",
+    "These words might not touch your heart or sound like any romantic poem you would expect but deep down with all the sincerity and compassion I have in me. I love you dearly Franzine. 🥺",
   ],
-  closing: "Selamanya untukmu,",
-  signature: "Aku yang selalu sayang kamu ❤️",
+  closing: "Forever Yours,",
+  signature: "The one who will always love you ❤️",
 }
 
 export default function ApologyLetter() {
