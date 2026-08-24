@@ -113,7 +113,7 @@ export default function PasscodeScreen({ onUnlock }) {
           marginBottom: '0.4rem',
         }}
       >
-        {success ? 'Berhasil! 🎉' : 'Masukkan Tanggal Spesial'}
+        {success ? 'Success! 🎉' : 'Enter the Special Date'}
       </motion.h1>
 
       <motion.p
@@ -128,7 +128,7 @@ export default function PasscodeScreen({ onUnlock }) {
           textAlign: 'center',
         }}
       >
-        {success ? 'Membuka surat untukmu... 💌' : 'Hanya untuk kamu yang tahu tanggalnya 🥺'}
+        {success ? 'Opening a letter for you... 💌' : 'Only for you, if you know the date 🥺'}
       </motion.p>
 
       {/* Input display */}
@@ -186,7 +186,7 @@ export default function PasscodeScreen({ onUnlock }) {
               fontWeight: 700,
             }}
           >
-            Salah tanggalnya~ Coba lagi 😅
+            Wrong date~ Try again 😅
           </motion.p>
         )}
       </AnimatePresence>
@@ -210,7 +210,7 @@ export default function PasscodeScreen({ onUnlock }) {
               marginBottom: '0.8rem',
             }}
           >
-            💡 Lihat petunjuk?
+            💡 Need a Hint?
           </motion.button>
         )}
         {hint && !success && (
@@ -225,7 +225,7 @@ export default function PasscodeScreen({ onUnlock }) {
               fontStyle: 'italic',
             }}
           >
-            Petunjuk: {DISPLAY_HINT} 🗓️
+            Hint: {DISPLAY_HINT} 🗓️
           </motion.p>
         )}
       </AnimatePresence>
